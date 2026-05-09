@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pocket Money App</string>
+    
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="ok">OK</string>
+    <string name="clear">Clear</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="edit">Edit</string>
+    
+    <!-- Welcome Screen -->
+    <string name="welcome_create_family">Create a Family</string>
+    <string name="welcome_sign_in">Sign In</string>
+    <string name="welcome_join_hint">Already have an account? Sign in to join a family.</string>
+    
+    <!-- Sign In Screen -->
+    <string name="sign_in_title">Sign In</string>
+    <string name="sign_in_welcome">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in_button">Sign In</string>
+    
+    <!-- Sign Up Screen -->
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_create_account">Create an Account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    
+    <!-- Create Family Screen -->
+    <string name="create_family_title">Create Family</string>
+    <string name="create_family_header">Create Your Family</string>
+    <string name="create_family_description">Give your family a name to get started!</string>
+    <string name="family_name">Family Name</string>
+    <string name="family_name_placeholder">e.g., The Johnsons 🏠</string>
+    <string name="create_family_button">Create Family</string>
+    
+    <!-- PIN Setup Screen -->
+    <string name="setup_pin_title">Set Up Your PIN</string>
+    <string name="setup_pin_description">Create a 4-6 digit PIN to secure your account</string>
+    <string name="setup_pin_enter">Enter PIN</string>
+    <string name="setup_pin_confirm">Confirm PIN</string>
+    <string name="setup_pin_placeholder">4-6 digits</string>
+    <string name="setup_pin_hint">You can use biometrics instead of PIN later</string>
+    <string name="setup_pin_button">Set PIN</string>
+    
+    <!-- PIN Entry Screen -->
+    <string name="enter_pin_title">Enter Your PIN</string>
+    <string name="enter_pin_description">Enter your PIN to unlock the app</string>
+    <string name="enter_pin_label">PIN</string>
+    <string name="enter_pin_button">Unlock</string>
+    <string name="enter_pin_error">Incorrect PIN</string>
+    <string name="enter_pin_use_biometric">Use Biometric</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_welcome">Welcome, %s!</string>
+    <string name="dashboard_family">Family: %s</string>
+    <string name="dashboard_chores_title">📝 Chores</string>
+    <string name="dashboard_chores_description">Manage and complete chores</string>
+    <string name="dashboard_members_title">👥 Family Members</string>
+    <string name="dashboard_members_description">Manage your family members</string>
+    <string name="dashboard_balance_title">💰 Balance</string>
+    <string name="dashboard_balance_description">View earnings and transactions</string>
+    <string name="dashboard_settings_title">⚙️ Settings</string>
+    <string name="dashboard_settings_description">App preferences and security</string>
+    <string name="dashboard_auth_working">✅ Authentication Working!</string>
+    <string name="dashboard_auth_message">You\'re signed in and your family is set up. Next, we\'ll add features like chores, children, and allowances!</string>
+    <string name="dashboard_your_info">Your Info:</string>
+    
+    <!-- Chores Screen -->
+    <string name="chores_title">Chores</string>
+    <string name="chores_empty_icon">📝</string>
+    <string name="chores_no_chores">No chores yet</string>
+    <string name="chores_add_hint">Tap the + button to create a chore</string>
+    <string name="chores_todo_section">To Do (%d)</string>
+    <string name="chores_completed_section">Completed (%d)</string>
+    <string name="chores_collapse">Collapse</string>
+    <string name="chores_expand">Expand</string>
+    <string name="chores_complete">Complete</string>
+    <string name="chores_not_done">Not Done</string>
+    <string name="chores_claim">Claim</string>
+    <string name="chores_assign">Assign</string>
+    <string name="chores_reassign">Reassign</string>
+    <string name="chores_unassigned">Unassigned</string>
+    <string name="chores_assigned_to">Assigned to: %s</string>
+    <string name="chores_due_date">Due: %s</string>
+    <string name="chores_schedule">⏰ %s</string>
+    <string name="chores_assignment">👤 %s</string>
+
+    <!-- Chore History Screen -->
+    <string name="chore_history_title">Chore History</string>
+    <string name="chore_history_icon">🕐</string>
+    <string name="chore_reorder_enable">Reorder chores</string>
+    <string name="chore_reorder_done">Done reordering</string>
+    <string name="chore_history_empty">No history yet</string>
+    <string name="chore_history_empty_hint">Approved and paid chores will appear here</string>
+    <string name="chore_history_count">%d completed chores</string>
+    
+    <!-- Add/Edit Chore Screen -->
+    <string name="add_chore_title">Add Chore</string>
+    <string name="edit_chore_title">Edit Chore</string>
+    <string name="add_chore_header">Create a New Chore</string>
+    <string name="edit_chore_header">Edit Chore Details</string>
+    <string name="chore_name">Chore Name</string>
+    <string name="chore_name_placeholder">e.g., Clean your room</string>
+    <string name="chore_description">Description (optional)</string>
+    <string name="chore_description_placeholder">e.g., Make bed, vacuum floor, organize desk</string>
+    <string name="chore_value">Value (kr)</string>
+    <string name="chore_value_placeholder">10.00</string>
+    <string name="chore_assign_to">Assign to</string>
+    <string name="chore_due_date">Due Date (optional)</string>
+    <string name="chore_no_due_date">No due date</string>
+    <string name="chore_select_date">Select date</string>
+    <string name="chore_recurring">Recurring Chore</string>
+    <string name="chore_frequency">Frequency</string>
+    <string name="chore_time_of_day">Time of Day</string>
+    <string name="chore_hour">Hour</string>
+    <string name="chore_minute">Minute</string>
+    <string name="chore_day_of_week">Day of Week</string>
+    <string name="chore_select_day">Select day</string>
+    <string name="chore_day_of_month">Day of Month</string>
+    <string name="chore_day_range">Day (1–31)</string>
+    <string name="chore_day_placeholder">1</string>
+    <string name="create_chore">Create Chore</string>
+    
+    <!-- Recurrence Types -->
+    <string name="recurrence_none">None</string>
+    <string name="recurrence_daily">Daily</string>
+    <string name="recurrence_weekly">Weekly</string>
+    <string name="recurrence_monthly">Monthly</string>
+    <string name="recurrence_daily_at">Daily at %s</string>
+    <string name="recurrence_every_day">Every %s</string>
+    <string name="recurrence_monthly_day">Monthly on day %d</string>
+    
+    <!-- Days of Week -->
+    <string name="day_monday">Monday</string>
+    <string name="day_tuesday">Tuesday</string>
+    <string name="day_wednesday">Wednesday</string>
+    <string name="day_thursday">Thursday</string>
+    <string name="day_friday">Friday</string>
+    <string name="day_saturday">Saturday</string>
+    <string name="day_sunday">Sunday</string>
+    
+    <!-- Test Children -->
+    <string name="child_boy">Boy</string>
+    <string name="child_girl">Girl</string>
+    
+    <!-- Chore Status -->
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_approved">Approved</string>
+    <string name="status_paid">Paid</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_biometric">Biometric Login</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_change_pin">Change PIN</string>
+    <string name="settings_reset_tours">Reset intro tours</string>
+    <string name="settings_reset_tours_done">Intro tours have been reset</string>
+    <string name="settings_reset_tours_dialog_title">Reset Intro Tours</string>
+    <string name="settings_reset_tours_dialog_body">Choose which tours to reset. They will play again the next time you visit that screen.</string>
+    <string name="settings_reset_tours_screen_chores">Chores</string>
+    <string name="settings_reset_tours_screen_dashboard">Dashboard</string>
+    <string name="settings_reset_tours_screen_library">Chore Library</string>
+    <string name="settings_reset_tours_screen_family">Family Members</string>
+    <string name="settings_reset_tours_reset_selected">Reset selected</string>
+    <string name="settings_reset_tours_reset_all">Reset all</string>
+    <string name="settings_pin_updated">PIN updated successfully</string>
+    <string name="settings_biometric_unavailable">Biometric login unavailable</string>
+    <string name="settings_biometric_no_hardware">No biometric hardware</string>
+    <string name="settings_biometric_hardware_unavailable">Biometric hardware unavailable</string>
+    <string name="settings_biometric_none_enrolled">No biometrics enrolled</string>
+    <string name="settings_biometric_security_update">Security update required</string>
+    <string name="settings_biometric_unsupported">Unsupported</string>
+    <string name="settings_biometric_unknown">Unknown status</string>
+    
+    <!-- Language Names -->
+    <string name="language_english">English</string>
+    <string name="language_danish">Dansk</string>
+    
+    <!-- Family Members Screen -->
+    <string name="family_members_title">Family Members</string>
+    <string name="family_members_empty">No family members yet</string>
+    <string name="family_members_add_hint">Tap the + button to add a family member</string>
+    <string name="member_section_parents">Parents</string>
+    <string name="member_section_children">Children</string>
+    <string name="member_delete">Delete</string>
+    <string name="member_delete_confirm">Delete %s?</string>
+    <string name="member_delete_message">This will remove the member and unassign their chores.</string>
+    <string name="member_delete_cancel">Cancel</string>
+    
+    <!-- Add/Edit Family Member Screen -->
+    <string name="add_member_title">Add Family Member</string>
+    <string name="edit_member_title">Edit Family Member</string>
+    <string name="member_name">Name</string>
+    <string name="member_name_placeholder">e.g., Emma</string>
+    <string name="member_role">Role</string>
+    <string name="member_role_parent">Parent</string>
+    <string name="member_role_child">Child</string>
+    <string name="member_avatar">Avatar</string>
+    <string name="member_avatar_hint">Choose an emoji</string>
+    <string name="create_member">Add Member</string>
+    <string name="update_member">Save Changes</string>
+    
+    <!-- Balance & Earnings Screen -->
+    <string name="balance_title">Balance &amp; Earnings</string>
+    <string name="balance_current">Current Balance</string>
+    <string name="balance_breakdown">Earnings Breakdown</string>
+    <string name="balance_chore_earnings">Chore Earnings</string>
+    <string name="balance_allowance">Allowance</string>
+    <string name="balance_bonus">Bonus</string>
+    <string name="balance_spending">Spending</string>
+    <string name="balance_adjustments">Adjustments</string>
+    <string name="balance_total">Total Balance</string>
+    <string name="balance_transaction_history">Transaction History</string>
+    <string name="balance_no_transactions">No transactions yet</string>
+    <string name="balance_empty_hint">Completed chores will appear here</string>
+    <string name="balance_select_member">Select a family member to view their balance</string>
+    <string name="balance_add_transaction">Add Transaction</string>
+    <string name="balance_view_all_transactions">View All Transactions</string>
+    <string name="transaction_history_title">%s\'s Transactions</string>
+    <string name="balance_all_transactions">All Transactions (%d)</string>
+    
+    <!-- Transaction Types -->
+    <string name="transaction_type_chore_approved">Chore Approved</string>
+    <string name="transaction_type_chore_paid">Chore Paid</string>
+    <string name="transaction_type_allowance">Allowance</string>
+    <string name="transaction_type_spending">Spending</string>
+    <string name="transaction_type_adjustment">Correction</string>
+    <string name="transaction_type_bonus">Bonus</string>
+    <string name="transaction_type_bank_transfer">Transferred to bank</string>
+
+    <!-- Transaction sign indicator -->
+    <string name="transaction_effect_adds">Adds to balance</string>
+    <string name="transaction_effect_removes">Removes from balance</string>
+    <string name="transaction_effect_label">Effect on balance</string>
+    
+    <!-- Add Transaction Screen -->
+    <string name="add_transaction_title">Add Transaction</string>
+    <string name="transaction_amount">Amount</string>
+    <string name="transaction_amount_hint">e.g., 50.00</string>
+    <string name="transaction_type">Type</string>
+    <string name="transaction_description">Description</string>
+    <string name="transaction_description_hint">What is this for?</string>
+    <string name="transaction_member">Member</string>
+    <string name="create_transaction">Add Transaction</string>
+    
+    <!-- Welcome Screen (additional) -->
+    <string name="welcome_subtitle">Manage chores and allowances\nfor your family</string>
+    <string name="welcome_join_invite">Have an invite? Join a family →</string>
+    
+    <!-- Sign In Screen (additional) -->
+    <string name="sign_in_toggle_password">Toggle password visibility</string>
+    <string name="sign_in_create_family_info">Sign in with your existing account to create a new family. If you\'re already in a family, you\'ll be disconnected from it.</string>
+    <string name="sign_in_joining">You\'re joining:</string>
+    <string name="sign_in_forgot_password">Forgot Password?</string>
+    <string name="sign_in_disconnect_warning">You will be disconnected from your previous family when you create the new family.</string>
+    <string name="sign_in_proceed">You can now proceed to create your family.</string>
+    <string name="sign_in_success_title">Signed In Successfully</string>
+    <string name="sign_in_disconnected">You have been disconnected from your previous family and connected to %s.</string>
+    <string name="sign_in_joined">You have successfully joined %s!</string>
+    <string name="sign_in_welcome_dialog">Welcome!</string>
+    <string name="continue_button">Continue</string>
+    
+    <!-- Sign Up Screen (additional) -->
+    <string name="sign_up_subtitle">Start by creating your account</string>
+    <string name="sign_up_password_hint">At least 6 characters</string>
+    <string name="sign_up_password_mismatch">Passwords don\'t match</string>
+    <string name="sign_up_email_exists">This email is already in use. Please use a different email or sign in.</string>
+    <string name="sign_up_failed">Failed to create account</string>
+    
+    <!-- Setup PIN Screen (additional) -->
+    <string name="setup_pin_invalid_length">PIN must be 4-6 digits</string>
+    <string name="setup_pin_mismatch">PINs do not match</string>
+    
+    <!-- PIN Entry Screen (additional) -->
+    <string name="enter_pin_placeholder">••••</string>
+    
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_header">Reset Your Password</string>
+    <string name="forgot_password_description">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="forgot_password_send">Send Reset Link</string>
+    <string name="forgot_password_back">Back to Sign In</string>
+    <string name="forgot_password_sent_title">Email Sent!</string>
+    <string name="forgot_password_sent_message">We\'ve sent a password reset link to %s. Please check your inbox and follow the instructions to reset your password.</string>
+    
+    <!-- Complete Profile Screen -->
+    <string name="complete_profile_title">Complete Your Profile</string>
+    <string name="complete_profile_header">Welcome Back!</string>
+    <string name="complete_profile_description">Your account needs a few more details. Please enter your name and set up a PIN to continue.</string>
+    <string name="complete_profile_info">You\'re signed in, but we need to complete your profile setup to use the app.</string>
+    <string name="complete_profile_name">Your Name</string>
+    <string name="complete_profile_continue">Continue to PIN Setup</string>
+    
+    <!-- Join Family Choice Screen -->
+    <string name="join_family_title">Join Family</string>
+    <string name="join_family_header">Join %s</string>
+    <string name="join_family_as">as %s</string>
+    <string name="join_family_description">To continue, you can either create a new account or sign in with an existing account.</string>
+    <string name="join_family_create_account">Create New Account</string>
+    <string name="join_family_sign_in">Sign In with Existing Account</string>
+    <string name="join_family_important">ℹ️ Important</string>
+    <string name="join_family_warning">If you sign in with an existing account that is already connected to another family, you will be disconnected from that family and connected to this one.</string>
+    
+    <!-- Create Family Choice Screen -->
+    <string name="create_family_choice_title">Create New Family</string>
+    <string name="create_family_choice_header">Start Your Family</string>
+    <string name="create_family_choice_description">Do you want to create a new account or sign in with an existing account?</string>
+    <string name="create_family_choice_no_account">I don\'t have an account yet</string>
+    <string name="create_family_choice_have_account">I already have an account</string>
+    <string name="create_family_choice_info">If you sign in with an existing account that\'s already in a family, you\'ll be disconnected from that family when creating this new one.</string>
+    
+    <!-- QR Scanner Screen -->
+    <string name="qr_scanner_title">Scan QR Code</string>
+    <string name="qr_scanner_instruction">Point camera at QR code</string>
+    <string name="qr_scanner_permission_title">Camera Permission Required</string>
+    <string name="qr_scanner_permission_message">Please grant camera permission to scan QR codes</string>
+    <string name="qr_scanner_grant">Grant Permission</string>
+    
+    <!-- Chores Screen (additional) -->
+    <string name="chores_loading">Loading...</string>
+    <string name="chores_welcome">Welcome, %s!</string>
+    <string name="chores_empty_child">No chores for you yet</string>
+    <string name="chores_empty_child_hint">Check back later for new chores</string>
+    <string name="chores_recurring_title">� Chore Library</string>    <string name="chores_recurring_icon">📚</string>    <string name="chores_recurring_description">Manage templates &amp; deploy chores quickly</string>
+    <string name="chores_recurring_go">Go to Chore Library</string>
+    <string name="chores_my_chores">📝 My Chores (%d)</string>
+    <string name="chores_unassigned_chores">🎯 Unassigned Chores (%d)</string>
+    <string name="chores_pending_approval">⏳ Pending Approval (%d)</string>
+    <string name="chores_approve">✓ Approve</string>
+    <string name="chores_add_chore">Add Chore</string>
+    
+    <!-- Add Chore Screen (additional) -->
+    <string name="add_chore_recurring_info">For chore templates, use the Chore Library from the main chores screen.</string>
+    <string name="add_chore_delete">Delete Chore</string>
+    <string name="add_chore_delete_title">Delete Chore?</string>
+    <string name="add_chore_delete_message">Are you sure you want to delete \"%s\"? This action cannot be undone.</string>
+    <string name="add_chore_delete_button">Delete</string>
+    <string name="add_chore_cancel">Cancel</string>
+    <string name="add_chore_dropdown">Dropdown</string>
+    <string name="add_chore_kr_suffix"> kr.</string>
+    
+    <!-- Recurring Chores Screen -->
+    <string name="recurring_chores_title">Chore Library</string>
+    <string name="recurring_chores_add">Add Template</string>
+    <string name="recurring_chores_empty">No chore templates yet</string>
+    <string name="recurring_chores_empty_hint">Add templates for chores you assign often, then deploy them with one tap</string>
+    <string name="recurring_chores_create">Deploy</string>
+    <string name="recurring_chores_edit">Edit</string>
+    <string name="recurring_chores_last_deployed">Last deployed: %s</string>
+    
+    <!-- Add Recurring Chore Screen -->
+    <string name="add_recurring_chore_title">Add Chore Template</string>
+    <string name="edit_recurring_chore_title">Edit Chore Template</string>
+    <string name="recurring_chore_template_info">Template Information</string>
+    <string name="recurring_chore_name_placeholder">e.g. Take out trash</string>
+    <string name="recurring_chore_description_placeholder">Add details about the chore</string>
+    <string name="recurring_chore_value_placeholder">0.00</string>
+    <string name="recurring_chore_schedule">Recurrence Schedule</string>
+    <string name="recurring_chore_frequency_none">None</string>
+    <string name="recurring_chore_time">Time of Day</string>
+    <string name="recurring_chore_separator">:</string>
+    <string name="recurring_chore_day_month">Day of Month</string>
+    <string name="recurring_chore_day_range">Day (1-31)</string>
+    <string name="recurring_chore_day_placeholder">1</string>
+    <string name="recurring_chore_assignment">Default Assignment</string>
+    <string name="recurring_chore_assigned_to">Assigned To</string>
+    <string name="recurring_chore_delete">Delete Template</string>
+    <string name="recurring_chore_delete_title">Delete Template?</string>
+    <string name="recurring_chore_delete_message">Are you sure you want to delete \"%s\"? This will delete the template but not any existing chore instances.</string>
+    <string name="recurring_chore_create">Create Template</string>
+    
+    <!-- Balance Screen (additional) -->
+    <string name="balance_add_member">Add member</string>
+    <string name="balance_loading">Loading...</string>
+    <string name="balance_please_wait">Please wait</string>
+    
+    <!-- Family Deletion Approval Screen -->
+    <string name="deletion_approval_title">⚠️ Family Deletion Request</string>
+    <string name="deletion_approval_family">Family: %s</string>
+    <string name="deletion_approval_initiated">Initiated by: %s</string>
+    <string name="deletion_approval_approvals">Approvals: %1$d of %2$d</string>
+    <string name="deletion_approval_status">Approval Status:</string>
+    <string name="deletion_approval_you_approved">You (Approved)</string>
+    <string name="deletion_approval_you_pending">You (Pending)</string>
+    <string name="deletion_approval_parent_approved">Parent (Approved)</string>
+    <string name="deletion_approval_parent_pending">Parent (Pending)</string>
+    <string name="deletion_approval_warning_header">⚠️ WARNING</string>
+    <string name="deletion_approval_warning_message">This will permanently delete:\n\n• The family \"%s\"\n• All family members\n• All chores and templates\n• All transactions and balances\n• All user accounts\n\nThis action CANNOT be undone!</string>
+    <string name="deletion_approval_approve">Approve Deletion</string>
+    <string name="deletion_approval_approved">✓ You have approved this deletion</string>
+    <string name="deletion_approval_reject">Reject &amp; Cancel Request</string>
+    <string name="deletion_approval_confirm_title">Confirm Deletion Approval</string>
+    <string name="deletion_approval_confirm_message">Are you ABSOLUTELY SURE you want to approve the deletion of \"%s\"?\n\nThis will delete all family data and user accounts permanently.</string>
+    <string name="deletion_approval_confirm_yes">Yes, Approve Deletion</string>
+    
+    <!-- Invitation QR Screen -->
+    <string name="invitation_qr_title">Invite %s</string>
+    <string name="invitation_qr_scan">Scan this QR code to join</string>
+    <string name="invitation_qr_as">as %s</string>
+    <string name="invitation_qr_image">QR Code</string>
+    <string name="invitation_qr_code">Invitation Code</string>
+    <string name="invitation_qr_expires">Expires: %s</string>
+    <string name="invitation_qr_instructions">The person scanning should:\n1. Open the Pocket Money app\n2. Tap \"Join a Family\"\n3. Scan this QR code\n4. Create their account</string>
+    
+    <!-- Family Members Screen (additional) -->
+    <string name="family_members_generate_invite">📱 Generate Invite QR Code</string>
+    
+    <!-- Dashboard Screen (additional) -->
+    <string name="dashboard_go_chores">Go to chores</string>
+    <string name="dashboard_go_members">Go to family members</string>
+    <string name="dashboard_go_settings">Go to settings</string>
+    
+    <!-- Settings Screen (additional) -->
+    <string name="settings_security_header">Security</string>
+    <string name="settings_biometric_description">Use fingerprint or face unlock</string>
+    <string name="settings_family_section">Family</string>
+    <string name="settings_family_name_label">Family name</string>
+    <string name="settings_family_name_save">Save name</string>
+    <string name="settings_family_name_saved">Family name updated ✓</string>
+    <string name="settings_automation">Automation</string>
+    <string name="settings_auto_generate">Auto-generate Chores</string>
+    <string name="settings_auto_generate_description">Automatically create chores from recurring templates daily</string>
+    <string name="settings_proposals_toggle">Allow Chore Suggestions</string>
+    <string name="settings_proposals_description">Children can suggest chores and a reward — parents approve, edit, or reject</string>
+    <string name="settings_due_date_toggle">Show Due Date Indicators</string>
+    <string name="settings_due_date_description">Highlight chores that are overdue or due soon with colour and icons</string>
+
+    <!-- Chore Proposals -->
+    <string name="proposals_section_parent">💡 Suggestions (%d)</string>
+    <string name="proposals_section_child">💡 My Suggestions</string>
+    <string name="proposals_suggest_button">💡 Suggest</string>
+    <string name="proposals_suggest_icon">💡</string>
+    <string name="proposals_add_title">Suggest a Chore</string>
+    <string name="proposals_name_label">Chore name</string>
+    <string name="proposals_name_placeholder">What do you want to do?</string>
+    <string name="proposals_description_label">Description (optional)</string>
+    <string name="proposals_description_placeholder">Describe the chore...</string>
+    <string name="proposals_reward_label">Suggested reward (kr.)</string>
+    <string name="proposals_submit">Submit Suggestion</string>
+    <string name="proposals_status_pending">🕐 Pending</string>
+    <string name="proposals_status_accepted">✅ Accepted</string>
+    <string name="proposals_status_accepted_edited">✏️ Accepted with edits</string>
+    <string name="proposals_status_rejected">❌ Rejected</string>
+    <string name="proposals_reject_reason">Reason (optional)</string>
+    <string name="proposals_reject_confirm">Reject</string>
+    <string name="proposals_accept">Accept</string>
+    <string name="proposals_accept_edit">Edit &amp; Accept</string>
+    <string name="proposals_dismiss">Dismiss</string>
+    <string name="proposals_by">Suggested by %s</string>
+    <string name="proposals_reward">Suggested reward: %.2f kr.</string>
+    <string name="settings_danger_zone">⚠️ Danger Zone</string>
+    <string name="settings_delete_family">Delete Family</string>
+    <string name="settings_deletion_pending">Deletion Request Pending</string>
+    <string name="settings_deletion_initiated">Initiated by: %s</string>
+    <string name="settings_deletion_approvals">Approvals: %1$d of %2$d</string>
+    <string name="settings_deletion_approve">Approve Deletion</string>
+    <string name="settings_deletion_approved">✓ You have approved</string>
+    <string name="settings_deletion_description">Permanently delete this family and all associated data. All parents must approve before deletion.</string>
+    <string name="settings_deletion_request">Request Family Deletion</string>
+    <string name="settings_deletion_dialog_title">Delete Family?</string>
+    <string name="settings_deletion_dialog_message">This will permanently delete:\n\n• The family \"%s\"\n• All family members\n• All chores and templates\n• All transactions and balances\n• All user accounts\n\nAll parents must approve this action. This cannot be undone!</string>
+    <string name="settings_deletion_request_button">Request Deletion</string>
+    
+    <!-- About Section -->
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_build_type">Build Type</string>
+    
+    <!-- Checkmarks and Icons -->
+    <string name="checkmark">✅</string>
+    <string name="info_icon">ℹ️</string>
+
+    <!-- Invitation -->
+    <string name="invite_member_title">Invite %s</string>
+
+    <!-- In-app feedback -->
+    <string name="feedback_button_description">Send feedback</string>
+    <string name="feedback_notice_text">Your feedback and a screenshot will be sent to the app developer.</string>
+
+    <!-- Spotlight Tours -->
+    <string name="tour_chores_library_title">Chore Library &#128218;</string>
+    <string name="tour_chores_library_body">Tap here to open your chore templates. Deploy any template with one tap to create a ready-made chore.</string>
+    <string name="tour_chores_history_title">Chore History &#128336;</string>
+    <string name="tour_chores_history_body">Tap here to see approved and paid chores. Parents can also revert a chore back to pending from here.</string>
+    <string name="tour_chores_reorder_title">Reorder Chores</string>
+    <string name="tour_chores_reorder_body">Tap here to enter reorder mode. Drag the handles on each chore card to rearrange them. Tap the checkmark when done.</string>
+    <string name="tour_chores_suggest_title">Suggest a Chore &#128161;</string>
+    <string name="tour_chores_suggest_body">Got an idea for a chore? Tap here to suggest it to your parents. You can include a name, description, and a suggested reward.</string>
+    <string name="tour_chores_card_title">Chore Cards</string>
+    <string name="tour_chores_card_body">Tap a chore card to expand it and see full details. Long-press to jump straight to editing.</string>
+    <string name="tour_chores_fab_title">Add a Chore &#10133;</string>
+    <string name="tour_chores_fab_body">Tap here to add a new chore. Give it a name, description, and a reward value — and optionally assign it to a family member.</string>
+
+    <!-- Dashboard tour -->
+    <string name="tour_dashboard_chores_title">Chores 📝</string>
+    <string name="tour_dashboard_chores_body_parent">Tap to manage and assign chores for your family. Set rewards, track progress, and approve completed work.</string>
+    <string name="tour_dashboard_chores_body_child">Tap to see your tasks and mark them done. Complete chores to earn pocket money!</string>
+    <string name="tour_dashboard_members_title">Family Members 👨‍👩‍👧‍👦</string>
+    <string name="tour_dashboard_members_body_parent">Tap to see all family members and their pocket money balances. Add transactions and manage allowances here.</string>
+    <string name="tour_dashboard_members_body_child">Tap to see your pocket money balance and the rest of your family.</string>
+    <string name="tour_dashboard_settings_title">Settings &#9881;</string>
+    <string name="tour_dashboard_settings_body">Change the app language, set up a PIN, enable biometric login, and manage your family here.</string>
+
+    <!-- Chore Library tour -->
+    <string name="tour_library_card_title">Chore Templates 📋</string>
+    <string name="tour_library_card_body">Each card is a saved chore template. Tap the &#9654; button to instantly create a chore from it, or the pencil icon to edit it.</string>
+    <string name="tour_library_fab_title">New Template &#10133;</string>
+    <string name="tour_library_fab_body">Tap here to create a new chore template. Give it a name, description, a default reward, and optionally assign it to a family member.</string>
+
+    <!-- Family members tour -->
+    <string name="tour_family_members_money_title">Add Transaction 💰</string>
+    <string name="tour_family_members_money_body">Tap here to add a transaction for a family member — a bonus, a correction, or a bank transfer. This is how you adjust each child\'s balance.</string>
+
+    <!-- Settings tour -->
+    <string name="tour_settings_language_title">App Language 🌐</string>
+    <string name="tour_settings_language_body">Switch between English and Danish. The app will restart immediately to apply the change.</string>
+    <string name="tour_settings_biometric_title">Biometric Login 👆</string>
+    <string name="tour_settings_biometric_body">Enable fingerprint or face unlock so you don\'t have to enter your PIN every time you open the app.</string>
+    <string name="tour_settings_pin_title">Change PIN 🔒</string>
+    <string name="tour_settings_pin_body">Change your 4-digit login PIN here. You\'ll be asked to enter the new PIN twice to confirm.</string>
+    <string name="tour_settings_proposals_title">Chore Proposals 💡</string>
+    <string name="tour_settings_proposals_body">When enabled, children can suggest new chores from the chores screen. You can then accept, edit, or reject their suggestions.</string>
+    <string name="tour_settings_danger_title">Danger Zone &#9888;</string>
+    <string name="tour_settings_danger_body">Delete your family and all its data here. This requires all parents to approve and cannot be undone.</string>
+</resources>

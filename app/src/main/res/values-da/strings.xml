@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lommepenge App</string>
+    
+    <!-- Common -->
+    <string name="back">Tilbage</string>
+    <string name="sign_out">Log ud</string>
+    <string name="dismiss">Luk</string>
+    <string name="ok">OK</string>
+    <string name="clear">Ryd</string>
+    <string name="save_changes">Gem ændringer</string>
+    <string name="edit">Rediger</string>
+    
+    <!-- Welcome Screen -->
+    <string name="welcome_create_family">Opret en familie</string>
+    <string name="welcome_sign_in">Log ind</string>
+    <string name="welcome_join_hint">Har du allerede en konto? Log ind for at tilslutte dig en familie.</string>
+    
+    <!-- Sign In Screen -->
+    <string name="sign_in_title">Log ind</string>
+    <string name="sign_in_welcome">Velkommen tilbage!</string>
+    <string name="email">E-mail</string>
+    <string name="password">Adgangskode</string>
+    <string name="sign_in_button">Log ind</string>
+    
+    <!-- Sign Up Screen -->
+    <string name="sign_up_title">Opret konto</string>
+    <string name="sign_up_create_account">Opret en konto</string>
+    <string name="name">Navn</string>
+    <string name="confirm_password">Bekræft adgangskode</string>
+    <string name="create_account">Opret konto</string>
+    
+    <!-- Create Family Screen -->
+    <string name="create_family_title">Opret familie</string>
+    <string name="create_family_header">Opret din familie</string>
+    <string name="create_family_description">Giv din familie et navn for at komme i gang!</string>
+    <string name="family_name">Familienavn</string>
+    <string name="family_name_placeholder">f.eks., Familien Jensen 🏠</string>
+    <string name="create_family_button">Opret familie</string>    
+    <!-- PIN Setup Screen -->
+    <string name="setup_pin_title">Indstil Din Pinkode</string>
+    <string name="setup_pin_description">Opret en 4-6 cifret pinkode for at sikre din konto</string>
+    <string name="setup_pin_enter">Indtast Pinkode</string>
+    <string name="setup_pin_confirm">Bekræft Pinkode</string>
+    <string name="setup_pin_placeholder">4-6 cifre</string>
+    <string name="setup_pin_hint">Du kan bruge biometri i stedet for pinkode senere</string>
+    <string name="setup_pin_button">Indstil Pinkode</string>
+    
+    <!-- PIN Entry Screen -->
+    <string name="enter_pin_title">Indtast Din Pinkode</string>
+    <string name="enter_pin_description">Indtast din pinkode for at låse appen op</string>
+    <string name="enter_pin_label">Pinkode</string>
+    <string name="enter_pin_button">Lås Op</string>
+    <string name="enter_pin_error">Forkert pinkode</string>
+    <string name="enter_pin_use_biometric">Brug Biometri</string>    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Oversigt</string>
+    <string name="dashboard_welcome">Velkommen, %s!</string>
+    <string name="dashboard_family">Familie: %s</string>
+    <string name="dashboard_chores_title">📝 Opgaver</string>
+    <string name="dashboard_chores_description">Administrer og gennemfør opgaver</string>
+    <string name="dashboard_members_title">👥 Familiemedlemmer</string>
+    <string name="dashboard_members_description">Administrer dine familiemedlemmer</string>
+    <string name="dashboard_balance_title">💰 Saldo</string>
+    <string name="dashboard_balance_description">Se indtjening og transaktioner</string>
+    <string name="dashboard_settings_title">⚙️ Indstillinger</string>
+    <string name="dashboard_settings_description">App præferencer og sikkerhed</string>
+    <string name="dashboard_auth_working">✅ Login virker!</string>
+    <string name="dashboard_auth_message">Du er logget ind og din familie er oprettet. Næste trin er at tilføje funktioner som opgaver, børn og lommepenge!</string>
+    <string name="dashboard_your_info">Dine oplysninger:</string>
+    
+    <!-- Chores Screen -->
+    <string name="chores_title">Opgaver</string>
+    <string name="chore_reorder_enable">Omarranger opgaver</string>
+    <string name="chore_reorder_done">Færdig med at omarrangere</string>
+    <string name="chores_empty_icon">📝</string>
+    <string name="chores_no_chores">Ingen opgaver endnu</string>
+    <string name="chores_add_hint">Tryk på + knappen for at oprette en opgave</string>
+    <string name="chores_todo_section">At gøre (%d)</string>
+    <string name="chores_completed_section">Færdige (%d)</string>
+    <string name="chores_collapse">Skjul</string>
+    <string name="chores_expand">Vis</string>
+    <string name="chores_complete">Færdig</string>
+    <string name="chores_not_done">Ikke færdig</string>
+    <string name="chores_claim">Tag opgaven</string>
+    <string name="chores_assign">Tildel</string>
+    <string name="chores_reassign">Omfordel</string>
+    <string name="chores_unassigned">Ikke tildelt</string>
+    <string name="chores_assigned_to">Tildelt til: %s</string>
+    <string name="chores_due_date">Skal være færdig: %s</string>
+    <string name="chores_schedule">⏰ %s</string>
+    <string name="chores_assignment">👤 %s</string>
+    
+    <!-- Chore History Screen -->
+    <string name="chore_history_title">Opgavehistorik</string>
+    <string name="chore_history_icon">\uD83D\uDD50</string>
+    
+    <!-- Add/Edit Chore Screen -->
+    <string name="add_chore_title">Tilføj opgave</string>
+    <string name="edit_chore_title">Rediger opgave</string>
+    <string name="add_chore_header">Opret en ny opgave</string>
+    <string name="edit_chore_header">Rediger opgavedetaljer</string>
+    <string name="chore_name">Opgavenavn</string>
+    <string name="chore_name_placeholder">f.eks., Ryd op på dit værelse</string>
+    <string name="chore_description">Beskrivelse (valgfri)</string>
+    <string name="chore_description_placeholder">f.eks., Red seng, støvsug gulv, organiser skrivebord</string>
+    <string name="chore_value">Værdi (kr)</string>
+    <string name="chore_value_placeholder">10.00</string>
+    <string name="chore_assign_to">Tildel til</string>
+    <string name="chore_due_date">Deadline (valgfri)</string>
+    <string name="chore_no_due_date">Ingen deadline</string>
+    <string name="chore_select_date">Vælg dato</string>
+    <string name="chore_recurring">Tilbagevendende opgave</string>
+    <string name="chore_frequency">Hyppighed</string>
+    <string name="chore_time_of_day">Tidspunkt på dagen</string>
+    <string name="chore_hour">Time</string>
+    <string name="chore_minute">Minut</string>
+    <string name="chore_day_of_week">Ugedag</string>
+    <string name="chore_select_day">Vælg dag</string>
+    <string name="chore_day_of_month">Dag i måneden</string>
+    <string name="chore_day_range">Dag (1–31)</string>
+    <string name="chore_day_placeholder">1</string>
+    <string name="create_chore">Opret opgave</string>
+    
+    <!-- Recurrence Types -->
+    <string name="recurrence_none">Ingen</string>
+    <string name="recurrence_daily">Daglig</string>
+    <string name="recurrence_weekly">Ugentlig</string>
+    <string name="recurrence_monthly">Månedlig</string>
+    <string name="recurrence_daily_at">Dagligt kl. %s</string>
+    <string name="recurrence_every_day">Hver %s</string>
+    <string name="recurrence_monthly_day">Månedligt den %d.</string>
+    
+    <!-- Days of Week -->
+    <string name="day_monday">Mandag</string>
+    <string name="day_tuesday">Tirsdag</string>
+    <string name="day_wednesday">Onsdag</string>
+    <string name="day_thursday">Torsdag</string>
+    <string name="day_friday">Fredag</string>
+    <string name="day_saturday">Lørdag</string>
+    <string name="day_sunday">Søndag</string>
+    
+    <!-- Test Children -->
+    <string name="child_boy">Dreng</string>
+    <string name="child_girl">Pige</string>
+    
+    <!-- Chore Status -->
+    <string name="status_pending">Afventer</string>
+    <string name="status_in_progress">I gang</string>
+    <string name="status_completed">Færdig</string>
+    <string name="status_approved">Godkendt</string>
+    <string name="status_paid">Betalt</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Indstillinger</string>
+    <string name="settings_language">Sprog</string>
+    <string name="settings_biometric">Biometrisk login</string>    <string name="settings_security">Sikkerhed</string>
+    <string name="settings_change_pin">Skift Pinkode</string>
+    <string name="settings_reset_tours">Nulstil intro-ture</string>
+    <string name="settings_reset_tours_done">Intro-ture er nulstillet</string>
+    <string name="settings_reset_tours_dialog_title">Nulstil intro-ture</string>
+    <string name="settings_reset_tours_dialog_body">V&#230;lg hvilke ture du vil nulstille. De afspilles igen n&#230;ste gang du bes&#248;ger sk&#230;rmen.</string>
+    <string name="settings_reset_tours_screen_chores">Opgaver</string>
+    <string name="settings_reset_tours_screen_dashboard">Oversigt</string>
+    <string name="settings_reset_tours_screen_library">Opgavebibliotek</string>
+    <string name="settings_reset_tours_screen_family">Familiemedlemmer</string>
+    <string name="settings_reset_tours_reset_selected">Nulstil valgte</string>
+    <string name="settings_reset_tours_reset_all">Nulstil alle</string>
+    <string name="settings_pin_updated">Pinkode opdateret</string>    <string name="settings_biometric_unavailable">Biometrisk login ikke tilgængelig</string>
+    <string name="settings_biometric_no_hardware">Ingen biometrisk hardware</string>
+    <string name="settings_biometric_hardware_unavailable">Biometrisk hardware utilgængelig</string>
+    <string name="settings_biometric_none_enrolled">Ingen biometri registreret</string>
+    <string name="settings_biometric_security_update">Sikkerhedsopdatering påkrævet</string>
+    <string name="settings_biometric_unsupported">Ikke understøttet</string>
+    <string name="settings_biometric_unknown">Ukendt status</string>
+    
+    <!-- Language Names -->
+    <string name="language_english">English</string>
+    <string name="language_danish">Dansk</string>
+    
+    <!-- Family Members Screen -->
+    <string name="family_members_title">Familiemedlemmer</string>
+    <string name="family_members_empty">Ingen familiemedlemmer endnu</string>
+    <string name="family_members_add_hint">Tryk på + knappen for at tilføje et familiemedlem</string>
+    <string name="member_section_parents">Forældre</string>
+    <string name="member_section_children">Børn</string>
+    <string name="member_delete">Slet</string>
+    <string name="member_delete_confirm">Slet %s?</string>
+    <string name="member_delete_message">Dette vil fjerne medlemmet og fjerne deres tildelte opgaver.</string>
+    <string name="member_delete_cancel">Annuller</string>
+    
+    <!-- Add/Edit Family Member Screen -->
+    <string name="add_member_title">Tilføj familiemedlem</string>
+    <string name="edit_member_title">Rediger familiemedlem</string>
+    <string name="member_name">Navn</string>
+    <string name="member_name_placeholder">f.eks., Emma</string>
+    <string name="member_role">Rolle</string>
+    <string name="member_role_parent">Forælder</string>
+    <string name="member_role_child">Barn</string>
+    <string name="member_avatar">Avatar</string>
+    <string name="member_avatar_hint">Vælg en emoji</string>
+    <string name="create_member">Tilføj medlem</string>
+    <string name="update_member">Gem ændringer</string>
+    
+    <!-- Balance & Earnings Screen -->
+    <string name="balance_title">Saldo &amp; Indtjening</string>
+    <string name="balance_current">Aktuel saldo</string>
+    <string name="balance_breakdown">Indtjeningsoversigt</string>
+    <string name="balance_chore_earnings">Opgaveindtjening</string>
+    <string name="balance_allowance">Lommepenge</string>
+    <string name="balance_bonus">Bonus</string>
+    <string name="balance_spending">Forbrug</string>
+    <string name="balance_adjustments">Justeringer</string>
+    <string name="balance_total">Total saldo</string>
+    <string name="balance_transaction_history">Transaktionshistorik</string>
+    <string name="balance_no_transactions">Ingen transaktioner endnu</string>
+    <string name="balance_empty_hint">Gennemførte opgaver vil vises her</string>
+    <string name="balance_select_member">Vælg et familiemedlem for at se deres saldo</string>
+    <string name="balance_add_transaction">Tilføj transaktion</string>    <string name="balance_view_all_transactions">Se Alle Transaktioner</string>
+    <string name="transaction_history_title">%s\'s Transaktioner</string>
+    <string name="balance_all_transactions">Alle Transaktioner (%d)</string>    
+    <!-- Transaction Types -->
+    <string name="transaction_type_chore_approved">Opgave godkendt</string>
+    <string name="transaction_type_chore_paid">Opgave betalt</string>
+    <string name="transaction_type_allowance">Lommepenge</string>
+    <string name="transaction_type_spending">Forbrug</string>
+    <string name="transaction_type_adjustment">Korrektion</string>
+    <string name="transaction_type_bonus">Bonus</string>
+    <string name="transaction_type_bank_transfer">Overført til bank</string>
+
+    <!-- Transaction sign indicator -->
+    <string name="transaction_effect_adds">Tilføjer til saldo</string>
+    <string name="transaction_effect_removes">Fjerner fra saldo</string>
+    <string name="transaction_effect_label">Virkning på saldo</string>
+    
+    <!-- Add Transaction Screen -->
+    <string name="add_transaction_title">Tilføj transaktion</string>
+    <string name="transaction_amount">Beløb</string>
+    <string name="transaction_amount_hint">f.eks., 50.00</string>
+    <string name="transaction_type">Type</string>
+    <string name="transaction_description">Beskrivelse</string>
+    <string name="transaction_description_hint">Hvad er dette til?</string>
+    <string name="transaction_member">Medlem</string>
+    <string name="create_transaction">Tilføj transaktion</string>
+    
+    <!-- Welcome Screen (additional) -->
+    <string name="welcome_subtitle">Administrer opgaver og lommepenge\nfor din familie</string>
+    <string name="welcome_join_invite">Har du en invitation? Tilslut dig en familie →</string>
+    
+    <!-- Sign In Screen (additional) -->
+    <string name="sign_in_toggle_password">Skift adgangskode synlighed</string>
+    <string name="sign_in_create_family_info">Log ind med din eksisterende konto for at oprette en ny familie. Hvis du allerede er i en familie, vil du blive frakoblet den.</string>
+    <string name="sign_in_joining">Du tilslutter dig:</string>
+    <string name="sign_in_forgot_password">Glemt adgangskode?</string>
+    <string name="sign_in_disconnect_warning">Du vil blive frakoblet din tidligere familie, når du opretter den nye familie.</string>
+    <string name="sign_in_proceed">Du kan nu fortsætte med at oprette din familie.</string>
+    <string name="sign_in_success_title">Logget ind</string>
+    <string name="sign_in_disconnected">Du er blevet frakoblet din tidligere familie og tilsluttet %s.</string>
+    <string name="sign_in_joined">Du er nu tilsluttet %s!</string>
+    <string name="sign_in_welcome_dialog">Velkommen!</string>
+    <string name="continue_button">Fortsæt</string>
+    
+    <!-- Sign Up Screen (additional) -->
+    <string name="sign_up_subtitle">Begynd med at oprette din konto</string>
+    <string name="sign_up_password_hint">Mindst 6 tegn</string>
+    <string name="sign_up_password_mismatch">Adgangskoderne matcher ikke</string>
+    <string name="sign_up_email_exists">Denne e-mail er allerede i brug. Brug venligst en anden e-mail eller log ind.</string>
+    <string name="sign_up_failed">Kunne ikke oprette konto</string>
+    
+    <!-- Setup PIN Screen (additional) -->
+    <string name="setup_pin_invalid_length">Pinkode skal være 4-6 cifre</string>
+    <string name="setup_pin_mismatch">Pinkoder matcher ikke</string>
+    
+    <!-- PIN Entry Screen (additional) -->
+    <string name="enter_pin_placeholder">••••</string>
+    
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Glemt adgangskode</string>
+    <string name="forgot_password_header">Nulstil din adgangskode</string>
+    <string name="forgot_password_description">Indtast din e-mailadresse, så sender vi dig et link til at nulstille din adgangskode.</string>
+    <string name="forgot_password_send">Send nulstillingslink</string>
+    <string name="forgot_password_back">Tilbage til login</string>
+    <string name="forgot_password_sent_title">E-mail sendt!</string>
+    <string name="forgot_password_sent_message">Vi har sendt et link til nulstilling af adgangskode til %s. Tjek venligst din indbakke og følg instruktionerne for at nulstille din adgangskode.</string>
+    
+    <!-- Complete Profile Screen -->
+    <string name="complete_profile_title">Fuldfør din profil</string>
+    <string name="complete_profile_header">Velkommen tilbage!</string>
+    <string name="complete_profile_description">Din konto mangler et par detaljer. Indtast venligst dit navn og opsæt en pinkode for at fortsætte.</string>
+    <string name="complete_profile_info">Du er logget ind, men vi skal fuldføre din profilopsætning for at bruge appen.</string>
+    <string name="complete_profile_name">Dit navn</string>
+    <string name="complete_profile_continue">Fortsæt til pinkode-opsætning</string>
+    
+    <!-- Join Family Choice Screen -->
+    <string name="join_family_title">Tilslut dig familie</string>
+    <string name="join_family_header">Tilslut dig %s</string>
+    <string name="join_family_as">som %s</string>
+    <string name="join_family_description">For at fortsætte kan du enten oprette en ny konto eller logge ind med en eksisterende konto.</string>
+    <string name="join_family_create_account">Opret ny konto</string>
+    <string name="join_family_sign_in">Log ind med eksisterende konto</string>
+    <string name="join_family_important">ℹ️ Vigtigt</string>
+    <string name="join_family_warning">Hvis du logger ind med en eksisterende konto, der allerede er tilsluttet en anden familie, vil du blive frakoblet den familie og tilsluttet denne.</string>
+    
+    <!-- Create Family Choice Screen -->
+    <string name="create_family_choice_title">Opret ny familie</string>
+    <string name="create_family_choice_header">Start din familie</string>
+    <string name="create_family_choice_description">Vil du oprette en ny konto eller logge ind med en eksisterende konto?</string>
+    <string name="create_family_choice_no_account">Jeg har ikke en konto endnu</string>
+    <string name="create_family_choice_have_account">Jeg har allerede en konto</string>
+    <string name="create_family_choice_info">Hvis du logger ind med en eksisterende konto, der allerede er i en familie, vil du blive frakoblet den familie, når du opretter denne nye.</string>
+    
+    <!-- QR Scanner Screen -->
+    <string name="qr_scanner_title">Scan QR-kode</string>
+    <string name="qr_scanner_instruction">Ret kameraet mod QR-koden</string>
+    <string name="qr_scanner_permission_title">Kameratilladelse påkrævet</string>
+    <string name="qr_scanner_permission_message">Giv venligst kameratilladelse for at scanne QR-koder</string>
+    <string name="qr_scanner_grant">Giv tilladelse</string>
+    
+    <!-- Chores Screen (additional) -->
+    <string name="chores_loading">Indlæser...</string>
+    <string name="chores_welcome">Velkommen, %s!</string>
+    <string name="chores_empty_child">Ingen opgaver til dig endnu</string>
+    <string name="chores_empty_child_hint">Kom tilbage senere for nye opgaver</string>
+    <string name="chores_recurring_title">📚 Opgavebibliotek</string>
+    <string name="chores_recurring_icon">📚</string>
+    <string name="chores_recurring_description">Administrer skabeloner &amp; udrul opgaver hurtigt</string>
+    <string name="chores_recurring_go">Gå til opgavebibliotek</string>
+    <string name="chores_my_chores">📝 Mine opgaver (%d)</string>
+    <string name="chores_unassigned_chores">🎯 Ikke-tildelte opgaver (%d)</string>
+    <string name="chores_pending_approval">⏳ Afventer godkendelse (%d)</string>
+    <string name="chores_approve">✓ Godkend</string>
+    <string name="chores_add_chore">Tilføj opgave</string>
+    
+    <!-- Add Chore Screen (additional) -->
+    <string name="add_chore_recurring_info">Brug Opgavebiblioteket fra hovedskærmen for opgaveskabeloner.</string>
+    <string name="add_chore_delete">Slet opgave</string>
+    <string name="add_chore_delete_title">Slet opgave?</string>
+    <string name="add_chore_delete_message">Er du sikker på, du vil slette \"%s\"? Denne handling kan ikke fortrydes.</string>
+    <string name="add_chore_delete_button">Slet</string>
+    <string name="add_chore_cancel">Annuller</string>
+    <string name="add_chore_dropdown">Rullemenu</string>
+    <string name="add_chore_kr_suffix"> kr.</string>
+    
+    <!-- Recurring Chores Screen -->
+    <string name="recurring_chores_title">Opgavebibliotek</string>
+    <string name="recurring_chores_add">Tilføj skabelon</string>
+    <string name="recurring_chores_empty">Ingen opgaveskabeloner endnu</string>
+    <string name="recurring_chores_empty_hint">Tilføj skabeloner til opgaver du tildeler ofte, og udrul dem med ét tryk</string>
+    <string name="recurring_chores_create">Udrul</string>
+    <string name="recurring_chores_edit">Rediger</string>
+    <string name="recurring_chores_last_deployed">Sidst udrullet: %s</string>
+    
+    <!-- Add Recurring Chore Screen -->
+    <string name="add_recurring_chore_title">Tilføj opgaveskabelon</string>
+    <string name="edit_recurring_chore_title">Rediger opgaveskabelon</string>
+    <string name="recurring_chore_template_info">Skabeloninformation</string>
+    <string name="recurring_chore_name_placeholder">f.eks. Tag skraldet ud</string>
+    <string name="recurring_chore_description_placeholder">Tilføj detaljer om opgaven</string>
+    <string name="recurring_chore_value_placeholder">0.00</string>
+    <string name="recurring_chore_schedule">Gentagelsesplan</string>
+    <string name="recurring_chore_frequency_none">Ingen</string>
+    <string name="recurring_chore_time">Tidspunkt på dagen</string>
+    <string name="recurring_chore_separator">:</string>
+    <string name="recurring_chore_day_month">Dag i måneden</string>
+    <string name="recurring_chore_day_range">Dag (1-31)</string>
+    <string name="recurring_chore_day_placeholder">1</string>
+    <string name="recurring_chore_assignment">Standard tildeling</string>
+    <string name="recurring_chore_assigned_to">Tildelt til</string>
+    <string name="recurring_chore_delete">Slet skabelon</string>
+    <string name="recurring_chore_delete_title">Slet skabelon?</string>
+    <string name="recurring_chore_delete_message">Er du sikker på, du vil slette \"%s\"? Dette vil slette skabelonen, men ikke eksisterende opgaveinstanser.</string>
+    <string name="recurring_chore_create">Opret skabelon</string>
+    
+    <!-- Balance Screen (additional) -->
+    <string name="balance_add_member">Tilføj medlem</string>
+    <string name="balance_loading">Indlæser...</string>
+    <string name="balance_please_wait">Vent venligst</string>
+    
+    <!-- Family Deletion Approval Screen -->
+    <string name="deletion_approval_title">⚠️ Anmodning om sletning af familie</string>
+    <string name="deletion_approval_family">Familie: %s</string>
+    <string name="deletion_approval_initiated">Iværksat af: %s</string>
+    <string name="deletion_approval_approvals">Godkendelser: %1$d af %2$d</string>
+    <string name="deletion_approval_status">Godkendelsesstatus:</string>
+    <string name="deletion_approval_you_approved">Dig (Godkendt)</string>
+    <string name="deletion_approval_you_pending">Dig (Afventer)</string>
+    <string name="deletion_approval_parent_approved">Forælder (Godkendt)</string>
+    <string name="deletion_approval_parent_pending">Forælder (Afventer)</string>
+    <string name="deletion_approval_warning_header">⚠️ ADVARSEL</string>
+    <string name="deletion_approval_warning_message">Dette vil permanent slette:\n\n• Familien \"%s\"\n• Alle familiemedlemmer\n• Alle opgaver og skabeloner\n• Alle transaktioner og saldi\n• Alle brugerkonti\n\nDenne handling kan IKKE fortrydes!</string>
+    <string name="deletion_approval_approve">Godkend sletning</string>
+    <string name="deletion_approval_approved">✓ Du har godkendt denne sletning</string>
+    <string name="deletion_approval_reject">Afvis &amp; annuller anmodning</string>
+    <string name="deletion_approval_confirm_title">Bekræft godkendelse af sletning</string>
+    <string name="deletion_approval_confirm_message">Er du HELT SIKKER på, at du vil godkende sletning af \"%s\"?\n\nDette vil slette alle familiedata og brugerkonti permanent.</string>
+    <string name="deletion_approval_confirm_yes">Ja, godkend sletning</string>
+    
+    <!-- Invitation QR Screen -->
+    <string name="invitation_qr_title">Inviter %s</string>
+    <string name="invitation_qr_scan">Scan denne QR-kode for at tilslutte</string>
+    <string name="invitation_qr_as">som %s</string>
+    <string name="invitation_qr_image">QR-kode</string>
+    <string name="invitation_qr_code">Invitationskode</string>
+    <string name="invitation_qr_expires">Udløber: %s</string>
+    <string name="invitation_qr_instructions">Personen, der scanner, skal:\n1. Åbne Pocket Money-appen\n2. Trykke på \"Tilslut en familie\"\n3. Scanne denne QR-kode\n4. Oprette deres konto</string>
+    
+    <!-- Family Members Screen (additional) -->
+    <string name="family_members_generate_invite">📱 Generer invitations QR-kode</string>
+    
+    <!-- Dashboard Screen (additional) -->
+    <string name="dashboard_go_chores">Gå til opgaver</string>
+    <string name="dashboard_go_members">Gå til familiemedlemmer</string>
+    <string name="dashboard_go_settings">Gå til indstillinger</string>
+    
+    <!-- Settings Screen (additional) -->
+    <string name="settings_security_header">Sikkerhed</string>
+    <string name="settings_biometric_description">Brug fingeraftryk eller ansigtslås</string>
+    <string name="settings_family_section">Familie</string>
+    <string name="settings_family_name_label">Familienavn</string>
+    <string name="settings_family_name_save">Gem navn</string>
+    <string name="settings_family_name_saved">Familienavn opdateret ✓</string>
+    <string name="settings_automation">Automatisering</string>
+    <string name="settings_auto_generate">Auto-generer opgaver</string>
+    <string name="settings_auto_generate_description">Opret automatisk opgaver fra tilbagevendende skabeloner dagligt</string>
+    <string name="settings_proposals_toggle">Tillad opgaveforslag</string>
+    <string name="settings_proposals_description">B\u00f8rn kan foresl\u00e5 opgaver og en bel\u00f8nning \u2014 for\u00e6ldre godkender, redigerer eller afviser</string>
+    <string name="settings_due_date_toggle">Vis forfaldsdato-indikatorer</string>
+    <string name="settings_due_date_description">Fremh\u00e6v opgaver der er forfaldne eller forfalder snart med farve og ikoner</string>
+
+    <!-- Chore Proposals -->
+    <string name="proposals_section_parent">\uD83D\uDCA1 Forslag (%d)</string>
+    <string name="proposals_section_child">\uD83D\uDCA1 Mine forslag</string>
+    <string name="proposals_suggest_button">\uD83D\uDCA1 Foresl\u00e5</string>
+    <string name="proposals_suggest_icon">\uD83D\uDCA1</string>
+    <string name="proposals_add_title">Foresl\u00e5 en opgave</string>
+    <string name="proposals_name_label">Opgavenavn</string>
+    <string name="proposals_name_placeholder">Hvad vil du g\u00f8re?</string>
+    <string name="proposals_description_label">Beskrivelse (valgfri)</string>
+    <string name="proposals_description_placeholder">Beskriv opgaven...</string>
+    <string name="proposals_reward_label">Foresl\u00e5et bel\u00f8nning (kr.)</string>
+    <string name="proposals_submit">Send forslag</string>
+    <string name="proposals_status_pending">\uD83D\uDD50 Afventer</string>
+    <string name="proposals_status_accepted">\u2705 Godkendt</string>
+    <string name="proposals_status_accepted_edited">\u270F\uFE0F Godkendt med \u00e6ndringer</string>
+    <string name="proposals_status_rejected">\u274C Afvist</string>
+    <string name="proposals_reject_reason">\u00c5rsag (valgfri)</string>
+    <string name="proposals_reject_confirm">Afvis</string>
+    <string name="proposals_accept">Godkend</string>
+    <string name="proposals_accept_edit">Rediger og godkend</string>
+    <string name="proposals_dismiss">Skjul</string>
+    <string name="proposals_by">Foresl\u00e5et af %s</string>
+    <string name="proposals_reward">Foresl\u00e5et bel\u00f8nning: %.2f kr.</string>
+    <string name="settings_danger_zone">⚠️ Farezone</string>
+    <string name="settings_delete_family">Slet familie</string>
+    <string name="settings_deletion_pending">Anmodning om sletning afventer</string>
+    <string name="settings_deletion_initiated">Iværksat af: %s</string>
+    <string name="settings_deletion_approvals">Godkendelser: %1$d af %2$d</string>
+    <string name="settings_deletion_approve">Godkend sletning</string>
+    <string name="settings_deletion_approved">✓ Du har godkendt</string>
+    <string name="settings_deletion_description">Slet permanent denne familie og alle tilknyttede data. Alle forældre skal godkende før sletning.</string>
+    <string name="settings_deletion_request">Anmod om sletning af familie</string>
+    <string name="settings_deletion_dialog_title">Slet familie?</string>
+    <string name="settings_deletion_dialog_message">Dette vil permanent slette:\n\n• Familien \"%s\"\n• Alle familiemedlemmer\n• Alle opgaver og skabeloner\n• Alle transaktioner og saldi\n• Alle brugerkonti\n\nAlle forældre skal godkende denne handling. Dette kan ikke fortrydes!</string>
+    <string name="settings_deletion_request_button">Anmod om sletning</string>
+        <!-- About Section -->
+    <string name="settings_about">Om</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_build_type">Build Type</string>
+        <!-- Checkmarks and Icons -->
+    <string name="checkmark">✅</string>
+    <string name="info_icon">ℹ️</string>
+
+    <!-- Invitation -->
+    <string name="invite_member_title">Inviter %s</string>
+
+    <!-- In-app feedback -->
+    <string name="feedback_button_description">Send feedback</string>
+    <string name="feedback_notice_text">Din feedback og et screenshot sendes til appudvikleren.</string>
+
+    <!-- Spotlight Tours -->
+    <string name="tour_chores_library_title">Opgavebibliotek &#128218;</string>
+    <string name="tour_chores_library_body">Tryk her for at åbne dine opgaveskabeloner. Udrul en skabelon med ét tryk for at oprette en færdig opgave.</string>
+    <string name="tour_chores_history_title">Opgavehistorik &#128336;</string>
+    <string name="tour_chores_history_body">Tryk her for at se godkendte og betalte opgaver. Forældre kan også sende en opgave tilbage til afventende herfra.</string>
+    <string name="tour_chores_reorder_title">Omarranger opgaver</string>
+    <string name="tour_chores_reorder_body">Tryk her for at aktivere omarrangeringstilstand. Træk håndtagene på hvert opgavekort for at omarrangere dem. Tryk på fluebenet når du er færdig.</string>
+    <string name="tour_chores_suggest_title">Foreslå en opgave &#128161;</string>
+    <string name="tour_chores_suggest_body">Har du en idé til en opgave? Tryk her for at foreslå den til dine forældre. Du kan angive navn, beskrivelse og en foreslået belønning.</string>
+    <string name="tour_chores_card_title">Opgavekort</string>
+    <string name="tour_chores_card_body">Tryk på et opgavekort for at udvide det og se alle detaljer. Hold fingeren nede for direkte at gå til redigering.</string>    <string name="tour_chores_fab_title">Tilf&#248;j en opgave &#10133;</string>
+    <string name="tour_chores_fab_body">Tryk her for at tilf&#248;je en ny opgave. Giv den et navn, beskrivelse og en bel&#248;nning — og tildel den evt. til et familiemedlem.</string>
+
+    <!-- Dashboard-tur -->
+    <string name="tour_dashboard_chores_title">Opgaver 📝</string>
+    <string name="tour_dashboard_chores_body_parent">Tryk for at administrere og tildele opgaver til din familie. S&#230;t bel&#248;nninger, f&#248;lg fremskridt og godkend udf&#248;rt arbejde.</string>
+    <string name="tour_dashboard_chores_body_child">Tryk for at se dine opgaver og markere dem som udf&#248;rte. Lav opgaver for at tjene lommepenge!</string>
+    <string name="tour_dashboard_members_title">Familiemedlemmer 👨‍👩‍👧‍👦</string>
+    <string name="tour_dashboard_members_body_parent">Tryk for at se alle familiemedlemmer og deres lommepenge-saldo. Tilf&#248;j transaktioner og administr&#233;r lommepenge her.</string>
+    <string name="tour_dashboard_members_body_child">Tryk for at se din lommepenge-saldo og resten af din familie.</string>
+    <string name="tour_dashboard_settings_title">Indstillinger &#9881;</string>
+    <string name="tour_dashboard_settings_body">Skift appens sprog, ops&#230;t en pinkode, aktiver biometrisk login og administr&#233;r din familie her.</string>
+
+    <!-- Opgavebibliotek-tur -->
+    <string name="tour_library_card_title">Opgaveskabeloner 📋</string>
+    <string name="tour_library_card_body">Hvert kort er en gemt opgaveskabelon. Tryk p&#229; &#9654;-knappen for straks at oprette en opgave fra den, eller blyanten for at redigere den.</string>
+    <string name="tour_library_fab_title">Ny skabelon &#10133;</string>
+    <string name="tour_library_fab_body">Tryk her for at oprette en ny opgaveskabelon. Giv den et navn, beskrivelse, en standardbel&#248;nning og tildel den evt. til et familiemedlem.</string>
+
+    <!-- Familiemedlemmer-tur -->
+    <string name="tour_family_members_money_title">Tilf&#248;j transaktion 💰</string>
+    <string name="tour_family_members_money_body">Tryk her for at tilf&#248;je en transaktion til et familiemedlem — en bonus, en korrektion eller en bankoverf&#248;rsel. S&#229;dan justerer du hvert barns saldo.</string>
+
+    <!-- Indstillinger-tur -->
+    <string name="tour_settings_language_title">App-sprog 🌐</string>
+    <string name="tour_settings_language_body">Skift mellem engelsk og dansk. Appen genstarter straks for at anvende &#230;ndringen.</string>
+    <string name="tour_settings_biometric_title">Biometrisk login 👆</string>
+    <string name="tour_settings_biometric_body">Aktiver fingeraftryk eller ansigtsoplusning, s&#229; du ikke beh&#248;ver at indtaste din pinkode, hver gang du &#229;bner appen.</string>
+    <string name="tour_settings_pin_title">Skift pinkode 🔒</string>
+    <string name="tour_settings_pin_body">Skift din 4-cifrede login-pinkode her. Du bliver bedt om at indtaste den nye pinkode to gange for at bekr&#230;fte.</string>
+    <string name="tour_settings_proposals_title">Opgaveforslag 💡</string>
+    <string name="tour_settings_proposals_body">N&#229;r aktiveret, kan b&#248;rn foresl&#229; nye opgaver fra opgavesk&#230;rmen. Du kan derefter acceptere, redigere eller afvise deres forslag.</string>
+    <string name="tour_settings_danger_title">Farezonen &#9888;</string>
+    <string name="tour_settings_danger_body">Slet din familie og alle dens data her. Dette kr&#230;ver godkendelse fra alle for&#230;ldre og kan ikke fortrydes.</string></resources>

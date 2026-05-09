@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left ear outer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M41,24 A8,8 0 1,0 41,40 A8,8 0 1,0 41,24Z"/>
+    <!-- Left ear inner -->
+    <path
+        android:fillColor="#FFAAC0"
+        android:pathData="M41,27 A5,5 0 1,0 41,37 A5,5 0 1,0 41,27Z"/>
+
+    <!-- Right ear outer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67,24 A8,8 0 1,0 67,40 A8,8 0 1,0 67,24Z"/>
+    <!-- Right ear inner -->
+    <path
+        android:fillColor="#FFAAC0"
+        android:pathData="M67,27 A5,5 0 1,0 67,37 A5,5 0 1,0 67,27Z"/>
+
+    <!-- Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34 A22,22 0 1,0 54,78 A22,22 0 1,0 54,34Z"/>
+
+    <!-- Legs -->
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M37,76 L43,76 Q44,76 44,77 L44,87 Q44,88 43,88 L37,88 Q36,88 36,87 L36,77 Q36,76 37,76Z"/>
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M47,76 L53,76 Q54,76 54,77 L54,87 Q54,88 53,88 L47,88 Q46,88 46,87 L46,77 Q46,76 47,76Z"/>
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M55,76 L61,76 Q62,76 62,77 L62,87 Q62,88 61,88 L55,88 Q54,88 54,87 L54,77 Q54,76 55,76Z"/>
+    <path
+        android:fillColor="#F0F0F0"
+        android:pathData="M65,76 L71,76 Q72,76 72,77 L72,87 Q72,88 71,88 L65,88 Q64,88 64,87 L64,77 Q64,76 65,76Z"/>
+
+    <!-- Coin slot -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M51,30 Q51,28 54,28 Q57,28 57,30 L57,34 Q57,36 54,36 Q51,36 51,34Z"/>
+
+    <!-- Snout -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M54,54 A11,8 0 1,0 54,70 A11,8 0 1,0 54,54Z"/>
+
+    <!-- Left nostril -->
+    <path
+        android:fillColor="#EF9A9A"
+        android:pathData="M49,59.5 A2.5,2.5 0 1,0 49,64.5 A2.5,2.5 0 1,0 49,59.5Z"/>
+    <!-- Right nostril -->
+    <path
+        android:fillColor="#EF9A9A"
+        android:pathData="M59,59.5 A2.5,2.5 0 1,0 59,64.5 A2.5,2.5 0 1,0 59,59.5Z"/>
+
+    <!-- Left eye -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M44,46 A3,3 0 1,0 44,52 A3,3 0 1,0 44,46Z"/>
+    <!-- Left eye shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,46.5 A1.2,1.2 0 1,0 43,48.9 A1.2,1.2 0 1,0 43,46.5Z"/>
+
+    <!-- Right eye -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M64,46 A3,3 0 1,0 64,52 A3,3 0 1,0 64,46Z"/>
+    <!-- Right eye shine -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M63,46.5 A1.2,1.2 0 1,0 63,48.9 A1.2,1.2 0 1,0 63,46.5Z"/>
+
+    <!-- Smile -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#EF9A9A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M48,69 Q54,74 60,69"/>
+
+    <!-- Tail -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M76,52 Q86,45 83,54 Q80,63 86,60"/>
+
+</vector>

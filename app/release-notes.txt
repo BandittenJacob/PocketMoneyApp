@@ -1,0 +1,8 @@
+﻿v2.02.000
+
+Changed:
+- Settings screen redesigned â€” all settings are now grouped into one **General** card (language, family name, proposals toggle, biometric, PIN) and one **Danger Zone** card (delete family). Removed the four separate section headings that each contained only one setting.
+
+Fixed:
+- **Accept proposal** now actually creates a chore â€” previously the proposal was marked accepted in Firestore but no chore was created
+- **Accept with edits** now opens the Add Chore screen pre-filled with the proposal's name, description, and suggested reward â€” previously it opened an empty form; saving the edited chore now correctly marks the proposal as `ACCEPTED_WITH_EDITS`

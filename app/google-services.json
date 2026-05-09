@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "790017941760",
+    "project_id": "pocketmoneyapp-47283",
+    "storage_bucket": "pocketmoneyapp-47283.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790017941760:android:16b72dcd008493bc9cd3e5",
+        "android_client_info": {
+          "package_name": "com.jmp.pocketmoneyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJu93IJx_XUcJZ2DFocf7L2KSQndcMNhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
